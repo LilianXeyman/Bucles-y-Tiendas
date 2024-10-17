@@ -716,8 +716,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2034953185}
         m_TargetAssemblyTypeName: Wallet, Assembly-CSharp
-        m_MethodName: RestarSaldo
-        m_Mode: 4
+        m_MethodName: SiCompra
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2908,6 +2908,7 @@ MonoBehaviour:
   etiquetaSaldo: {fileID: 358043918}
   confirmarCompra: {fileID: 471906502}
   sinSaldo: {fileID: 624866832}
+  precioActual: 0
 --- !u!4 &2034953186
 Transform:
   m_ObjectHideFlags: 0

@@ -16,10 +16,10 @@ public class ButtonShop : MonoBehaviour
 
     [SerializeField]
     float priceItem;
-    // Start is called before the first frame update
+
     void Start()
     {
-        textButton = transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        textButton = transform.GetChild(0).GetComponent<TextMeshProUGUI>();//Estas diciendo que el nombre del botón sea el mismo que el del nombre del "hijo" en donde los game objects
         priceItem = Random.Range(25f,350f);
         textButton.text = priceItem.ToString() + "€";
     }
