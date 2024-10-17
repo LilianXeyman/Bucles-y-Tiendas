@@ -21,7 +21,7 @@ public class EjemploBucle : MonoBehaviour
         int sumaDeNotas = 0;
         int notaMAlta = arrayNumeros[0];
         int notaMBaja = arrayNumeros[0];
-        for (int i=0;i<arrayNumeros.Length;i++)
+        for (int i=0; i<arrayNumeros.Length; i++)
         {
             sumaDeNotas += arrayNumeros[i];
             Debug.Log("Nota en el ejercicio " + i + "=" + arrayNumeros[i]);
