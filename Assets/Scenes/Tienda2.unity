@@ -537,8 +537,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myWallet: {fileID: 2034953185}
+  posibleNombres:
+  - Caldero
+  - Libro
+  - Carta
+  - Mochila
   nameItem: Caldero
   priceItem: 0
+  precio:
+  - {x: 50, y: 100}
+  - {x: 30, y: 50}
+  - {x: 5, y: 20}
+  - {x: 10, y: 30}
 --- !u!1 &416485019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,8 +1133,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myWallet: {fileID: 2034953185}
+  posibleNombres:
+  - Botas
+  - Tenis
+  - Cholas
+  - Tacos
   nameItem: Mochila
   priceItem: 0
+  precio: []
 --- !u!1 &530895828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,8 +1457,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myWallet: {fileID: 2034953185}
+  posibleNombres:
+  - Caldero
+  - Libro
+  - Carta
+  - Mochila
   nameItem: Objeto
   priceItem: 0
+  precio:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!4 &793376010
 Transform:
   m_ObjectHideFlags: 0
@@ -1978,8 +2004,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myWallet: {fileID: 2034953185}
+  posibleNombres:
+  - Espada
+  - Arco
+  - Lanza
+  - Mandoble
   nameItem: Libro
   priceItem: 0
+  precio: []
 --- !u!1 &1174771276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,6 +2939,7 @@ MonoBehaviour:
   saldo: 0
   etiquetaSaldo: {fileID: 358043918}
   confirmarCompra: {fileID: 471906502}
+  labelConfirmacion: {fileID: 1865492994}
   sinSaldo: {fileID: 624866832}
   precioActual: 0
 --- !u!4 &2034953186
@@ -3205,8 +3238,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myWallet: {fileID: 2034953185}
+  posibleNombres:
+  - Collar
+  - "Bast\xF3n"
+  - Hierba
+  - Saco
   nameItem: Carta
   priceItem: 0
+  precio: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
