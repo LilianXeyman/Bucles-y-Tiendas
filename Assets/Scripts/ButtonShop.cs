@@ -8,8 +8,8 @@ public class ButtonShop : MonoBehaviour
     //[SerializeField]
     TextMeshProUGUI textButton;
 
-    [SerializeField]
-    Wallet myWallet; //Al poner esto, cuando pongas en el código myWallet, estas diciendo que busque en el script Wallet 
+    /*[SerializeField]
+    Wallet myWallet; //Al poner esto, cuando pongas en el código myWallet, estas diciendo que busque en el script Wallet */ //<- Vamos a cambiar esto por el singeltone
 
     [SerializeField]
     string[] posibleNombres;
@@ -32,6 +32,6 @@ public class ButtonShop : MonoBehaviour
     }
     public void ClickEnBotonTienda()
     {
-        myWallet.InformarCompra(nameItem, priceItem);
+        Wallet.instance.InformarCompra(nameItem, priceItem);//Cambias myWallet por Wallet.instance 
     }
 }

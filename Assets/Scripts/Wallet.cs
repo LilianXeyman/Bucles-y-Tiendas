@@ -5,6 +5,7 @@ using TMPro;
 
 public class Wallet : MonoBehaviour
 {
+    public static Wallet instance; //Esto es un singeltong(?) se hace para que todo haga referencia a este script
     [SerializeField]
     float saldo;
    
@@ -23,6 +24,17 @@ public class Wallet : MonoBehaviour
     [SerializeField]//IMPORTANTE Añades una nueva variable que almacena el valor actual del objeto, el que vayas a clicar. 
     float precioActual;
 
+    private void Awake()
+    {
+        if (Wallet.instance == null)//Comnprueba que el singeltone existe o no. En el caso de que no exista lo vas a crear
+        {
+            Wallet.instance = this;//Aqui pones que a lo que vas a hacer referencia con el this
+        }
+        else 
+        {
+            Destroy(this); //Con esto te qaseguras de que solo se ejecute una vez este script??????
+        }
+    }
     void Start()
     {
         saldo = Random.Range(450f, 950f);

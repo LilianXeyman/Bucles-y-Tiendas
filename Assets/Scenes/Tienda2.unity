@@ -536,7 +536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322d1609cb9a66c42b44e8b40bd4f388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myWallet: {fileID: 2034953185}
   posibleNombres:
   - Caldero
   - Libro
@@ -1132,7 +1131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322d1609cb9a66c42b44e8b40bd4f388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myWallet: {fileID: 2034953185}
   posibleNombres:
   - Botas
   - Tenis
@@ -1427,63 +1425,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722184603}
   m_CullTransparentMesh: 1
---- !u!1 &793376008
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 793376010}
-  - component: {fileID: 793376009}
-  m_Layer: 0
-  m_Name: ButtonShop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &793376009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793376008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 322d1609cb9a66c42b44e8b40bd4f388, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myWallet: {fileID: 2034953185}
-  posibleNombres:
-  - Caldero
-  - Libro
-  - Carta
-  - Mochila
-  nameItem: Objeto
-  priceItem: 0
-  precio:
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
---- !u!4 &793376010
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793376008}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 631.0318, y: 344.29233, z: -58.70198}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868746573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,7 +1944,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322d1609cb9a66c42b44e8b40bd4f388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myWallet: {fileID: 2034953185}
   posibleNombres:
   - Espada
   - Arco
@@ -3237,7 +3177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322d1609cb9a66c42b44e8b40bd4f388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myWallet: {fileID: 2034953185}
   posibleNombres:
   - Collar
   - "Bast\xF3n"
@@ -3255,4 +3194,3 @@ SceneRoots:
   - {fileID: 1126495435}
   - {fileID: 2025799999}
   - {fileID: 2034953186}
-  - {fileID: 793376010}
